@@ -1,5 +1,5 @@
-import React from 'react'
+import { ChatForm } from '@/components/chat-form'
 
 export default function Page() {
-  return <div>Page</div>
+  return <ChatForm />
 }
