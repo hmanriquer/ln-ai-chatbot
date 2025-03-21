@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LexisNexis LLM's Hackathon
 
-## Getting Started
+## Overview
 
-First, run the development server:
+Welcome to the LexisNexis LLM Hackathon! This exciting event brings together developers, data scientists, and legal tech enthusiasts to explore and innovate with Large Language Models.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Event Details
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Date**: [To be announced]
+- **Duration**: 2HRS+
+- **Location**: Lexis Nexis Office
+- **Format**: In Person
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Getting Started with this section
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone this repository
+2. Review the project requirements and guidelines
+3. Reach out your team
+4. Start building your solution
 
-## Learn More
+## Resources
 
-To learn more about Next.js, take a look at the following resources:
+- For API Documentation please refer to the server project.
+- [Next.js Docs](https://nextjs.org/docs)
+- [React Server Components](https://react.dev/reference/rsc/server-components)
+- [TailwindCSS](https://tailwindcss.com/docs/styling-with-utility-classes)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+For any questions or support, please reach out to your current Hosts
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Enrique Cabrera (Host)
+- Oscar Armas (Data Science)
+- Juan Fuentes (Data Science)
+- Luis Angel Lozano Medina (Data Science)
+- Hamed Manrique (Frontend)
