@@ -8,18 +8,20 @@ import { Button } from './ui/button'
 import { AutoResizeTextarea } from './ui/autoresize-textarea'
 import { MessageList } from './message-list'
 import { Header } from './header'
+import { ThemeToggle } from './theme-toggle'
+import { FileUpload } from './upload-file'
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
   TooltipProvider,
 } from './ui/tooltip'
-import { ThemeToggle } from './theme-toggle'
 
 export function ChatForm({
   className,
   ...props
 }: React.ComponentProps<'form'>) {
+  const [selectedFile, setSelectedFile] = useState<File | null>(null)
   const [messages, setMessages] = useState<Message[]>([])
   const [message, setMessage] = useState('')
   const [loading, setLoading] = useState(false)
@@ -62,6 +64,7 @@ export function ChatForm({
         </div>
         <div className="mx-6 mb-6 flex items-center gap-2">
           <ThemeToggle />
+          <FileUpload onFileSelect={setSelectedFile} />
           <form
             onSubmit={handleSubmit}
             className="border-input bg-background focus-within:ring-ring/10 relative flex flex-1 items-center rounded-[16px] border px-3 py-1.5 pr-8 text-sm focus-within:ring-2 focus-within:ring-offset-0 focus-within:outline-none"
